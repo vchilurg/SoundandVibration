@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cgv.soundandvibration.MainActivity">
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp" />
+    <Button
+        android:id="@+id/StpPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/play"
+        android:layout_alignLeft="@+id/Vibrate"
+        android:layout_alignStart="@+id/Vibrate" />
+    <Button
+        android:id="@+id/Vibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vibrate"
+        android:layout_marginTop="99dp"
+        android:layout_below="@+id/play"
+        android:layout_alignLeft="@+id/play"
+        android:layout_alignStart="@+id/play" />
+
+    <Button
+        android:id="@+id/StpVib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Vibrate"
+        android:layout_alignStart="@+id/Vibrate"
+        android:layout_below="@+id/Vibrate"
+        android:layout_marginTop="31dp"
+        android:text="stop-vib" />
+
+</RelativeLayout>
